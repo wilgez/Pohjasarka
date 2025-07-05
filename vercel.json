@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/fi",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/en",
+      "destination": "/index-en.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/fi",
+      "permanent": true
+    },
+    {
+      "source": "/index-en.html",
+      "destination": "/en",
+      "permanent": true
+    }
+  ]
+} 
